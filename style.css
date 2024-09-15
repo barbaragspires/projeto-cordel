@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+  background-color: #000000;
+	width: auto;
+	color: #ffffff;
+	text-align: center;
+	}
+
+header > h1 {
+	font-family: "Passion One", sans-serif;
+  font-size: 10vw;
+	padding: 25px 0 10px 0;
+	font-variant: small-caps;
+}
+header > p {
+	font-family: Arial, sans-serif;
+	font-size:3vh;
+	padding-bottom: 20px;
+}
+a {
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bolder;
+}
+section {
+	color: #000000;
+	background-color:#ffffff ;
+	text-align: justify;
+}
+section > p {
+	font-family: "Sriracha", system-ui;
+	padding: 30px 30px 20px 34px;
+	font-size: 3vw;
+	text-align: left;
+}
+footer {
+	background-color: #000000;
+	color: #ffffff;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	padding: 1vh;
+}
