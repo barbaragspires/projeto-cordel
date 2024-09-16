@@ -40,10 +40,42 @@ section > p {
 	font-size: 3vw;
 	text-align: left;
 }
+.img1 {
+	background-image: url(imagens/background001.jpg);
+	background-position: center center;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.img1 > p {
+	display: inline-block;
+	color: #ffffff;
+	background-color: rgb(0 0 0 / 43%);
+	border: 1px none #00000085;
+	border-radius: 75px 5px 75px;
+	margin: 30px 10px 30px 10px;
+}
+
+.img2 {
+	background-image: url(imagens/background002.jpg);
+	background-position: center center;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+.img2 > p {
+	display: inline-block;
+	color: #ffffff;
+	background-color: rgb(0 0 0 / 43%);
+	border: 1px none #00000085;
+	border-radius: 75px 5px 75px;
+	margin: 30px 10px 30px 10px;
+}
+
 footer {
 	background-color: #000000;
 	color: #ffffff;
 	font-family: Arial, sans-serif;
 	text-align: center;
 	padding: 1vh;
+	margin-top: 40px;
 }
